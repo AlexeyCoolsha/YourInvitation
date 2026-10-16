@@ -1,0 +1,75 @@
+/* Jost sans-serif */
+
+@font-face {
+  font-family: "Jost";
+  src: url("@sas/fonts/jost-cyrillic-wght-normal.woff2")
+    format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("@sas/fonts/jost-latin-wght-normal.woff2")
+    format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("@sas/fonts/jost-cyrillic-wght-italic.woff2")
+    format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("@sas/fonts/jost-latin-wght-italic.woff2")
+    format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* Cormorant Garamond serif */
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("@sas/fonts/cormorant-garamond-cyrillic-wght-normal.woff2")
+    format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("@sas/fonts/cormorant-garamond-latin-wght-normal.woff2")
+    format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("@sas/fonts/cormorant-garamond-cyrillic-wght-italic.woff2")
+    format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("@sas/fonts/cormorant-garamond-latin-wght-italic.woff2")
+    format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
