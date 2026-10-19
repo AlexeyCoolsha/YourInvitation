@@ -1,13 +1,14 @@
-import React from 'react';
 import './Logo.css';
+import logoImg from '@sas/images/logo.svg';
+import logoTextImg from '@sas/images/logo-text.svg';
 
-function logo() {
+function Logo() {
   return (
     <div className="logo">
-        <img src="../../assets/images/logo.webp" alt="logo" className="logo__image" />
-        <img src="@sas/images/logo-text.svg" alt="logo-text" className="logo__image--text" />
+      <img src={logoImg} alt="Логотип" className="logo__image" />
+      <img src={logoTextImg} alt="Текстовый логотип" className="logo__image--text" />
     </div>
-  )
+  );
 }
 
-export default logo
+export default Logo;
