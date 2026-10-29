@@ -7,6 +7,10 @@
   --text: #6E6962;
   --text--secondary: #99928A;
   --text-h: #111111;
+  
+  --text-h-hover: #1a1a1a;
+  --text-h-active: #2a2a2a;
+  --text-tab: #6E5A4E;
 
   /* Background Colors */
   --bg: #F5F2EB;

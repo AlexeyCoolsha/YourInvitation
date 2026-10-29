@@ -1,8 +1,14 @@
 import './Button.css';
-import { Link } from 'react-router';
 
-function Button({ as: Component = 'button', className, children, ...props }) {
-  const combinedClassName = `button ${className}`.trim();
+function Button({ as: Component = 'button', variant = 'primary', rounded='none', className = '', children, ...props }) {
+  const combinedClassName = [
+    'button',
+    `button--${variant}`,
+    rounded !== 'none' && `button--rounded-${rounded}`,
+    className,
+  ]
+    .filter(Boolean)
+    .join(' ');
   return (
     <Component className={combinedClassName} {...props}>
       {children}

@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  padding: 24px 80px;
+  .header__inner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__navigation {
+    display: flex;
+    gap: 44px;
+  }
+}

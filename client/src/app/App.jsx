@@ -1,23 +1,27 @@
 import './App.css';
+import { Routes, Route } from 'react-router';
 
-import { Link } from 'react-router';
-import Logo from '../shared/ui/Logo/Logo';
-import Button from '../shared/ui/Button/Button';
+import Header from '../widgets/Header/Header';
+import PageTitle from '../shared/lib/page-title/PageTitle';
+
+import HomePage from '../pages/home/ui/HomePage';
+import TemplatesPage from '../pages/templates/ui/TemplatesPage';
+import AboutPage from '../pages/about/ui/AboutPage';
+import ContactsPage from '../pages/contacts/ui/ContactsPage';
 
 function App() {
   return (
-    <div className="app">
-      <Logo />
-      <h1>Твоё приглашение</h1>
-      <Button as="a" href="https://google.com" >Текст кнопки</Button>
-      <Button>Текст кнопки</Button>
-      <Button as={Link}>Link</Button>
-      <p>Создавай красивые приглашения для важных событий.</p>
-      <div className="block">
-        <p className="text">Text1</p>
-      </div>
-      <p className="text">Text2</p>
-    </div>
+    <>
+      <Header />
+      <PageTitle />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/templates" element={<TemplatesPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contacts" element={<ContactsPage />} />
+      </Routes>
+    </>
   );
 }
 
